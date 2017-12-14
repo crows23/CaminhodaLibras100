@@ -1,0 +1,76 @@
+#popupRespostaErrada {
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 0px;
+	margin-top: 234px;
+	margin-left: 383px;
+	width: 600px;
+	height: 300px;
+	background-color: #1d3160;
+	border-radius: 20px;
+}
+
+#cabecalhoPopupRespostaErrada {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 1px;
+	margin-left: 1px;
+	padding: 10px;
+	width: 250px;
+	height: 25px;
+	background-color: #F3EBE0;
+	color: #283891;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#cabecalhoPopupRespostaErrada > header > h2 {
+	font-size: 28px;
+	line-height: 25px;
+	font-family: 'Luckiest';
+}
+
+#textoPopupRespostaErrada {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 500px;
+	height: 200px;
+	background-color: #F3EBE0;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 25px;
+	color: #283891;
+	font-family: 'Open';
+}
+
+#textoPopupRespostaErrada p:nth-child(1) {
+	margin-top: 25px;
+}
+
+#botaoOkErrou {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 185px;
+    margin-left: 230px;
+	width: 140px;
+	height: 50px;
+}
+
+#botaoOkErrou > input {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	border: 4px solid #eaab3b;
+	border-radius: 20px;
+	background-color: #eaab3b;
+	font-family: 'Luckiest';
+	color: #283891;
+	transition: all 0.2s linear;
+}

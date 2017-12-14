@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tabuleiro </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/modelo.css">
+	<link rel="stylesheet" type="text/css" href="../css/tabuleiro.css">
+	<link rel="stylesheet" type="text/css" href="../css/casasTabuleiro.css">
+	<link rel="stylesheet" type="text/css" href="../css/popups.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_pontos/popup_pontos.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_perguntas/popup_perguntas.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_passar_vez/popup_passar_vez.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_i_love_you/popup_i_love_you.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_resposta_errada/popup_resposta_errada.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_resposta_correta/popup_resposta_correta.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_opcoes/popup_opcoes.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_encerrar_partida/popup_encerrar_partida.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_dados_equipe/popup_dados_equipe.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_chegada/popup_chegada.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_ajuda/popup_ajuda.css">
+	<script type="text/javascript" src="../js/functions_jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/functions_jquery/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="tela_principal">
+			<div id="conteudo">
+				<div id="tabuleiroZoom"></div>
+
+				<figure id="tabuleiro">
+					<div id="casasTabuleiro">
+						<figure id="pino1">
+							<img src="" />
+						</figure>
+
+						<figure id="pino2">
+							<img src="" />
+						</figure>
+
+						<figure id="">
+							<img src="" />
+						</figure>
+
+						<figure id="">
+							<img src="" />
+						</figure>
+
+						<div id="divCasaInicio"></div>
+
+						<div id="divCasa1"></div>
+						
+						<div id="divCasa2"></div>
+						
+						<div id="divCasa3"></div>
+
+						<div id="divCasa4"></div>
+
+						<div id="divCasa5"></div>
+
+						<div id="divCasa6"></div>
+
+						<div id="divCasa7"></div>
+						
+						<div id="divCasa8"></div>
+						
+						<div id="divCasa9"></div>
+						
+						<div id="divCasa10"></div>
+						
+						<div id="divCasa11"></div>
+						
+						<div id="divCasa12"></div>
+						
+						<div id="divCasa13"></div>
+						
+						<div id="divCasa14"></div>
+						
+						<div id="divCasa15"></div>
+						
+						<div id="divCasa16"></div>
+						
+						<div id="divCasa17"></div>
+						
+						<div id="divCasa18"></div>
+						
+						<div id="divCasa19"></div>
+						
+						<div id="divCasa20"></div>
+						
+						<div id="divCasa21"></div>
+						
+						<div id="divCasa22"></div>
+						
+						<div id="divCasa23"></div>
+						
+						<div id="divCasa24"></div>
+
+						<div id="divCasa25"></div>
+						
+						<div id="divCasaChegada"></div>
+					</div>
+				</figure>
+
+				<div id="espacoIcones">
+					<figure id="primeiraEquipeJogandoAgora">
+						<img src="" />
+						<p></p>
+					</figure>
+
+					<figure id="segundaEquipeJogandoAgora">
+						<img src="" />
+						<p></p>
+					</figure>
+
+					<figure id="terceiraEquipeJogandoAgora">
+						<img src="" />
+						<p></p>
+					</figure>
+
+					<figure id="quartaEquipeJogandoAgora">
+						<img src="" />
+						<p></p>
+					</figure>
+				</div>
+
+				<div id="espacoBotoesOpcao">
+					<div id="botaoZoom">
+						<input type="button" value="Zoom">
+					</div>
+
+					<div id="botaoPontos">
+						<input type="button" value="Pontos">
+					</div>
+
+					<div id="botaoOpcoes">
+						<input type="button" value="Opções">
+					</div>
+
+					<div id="botaoAjuda">
+						<input type="button" value="Ajuda">
+					</div>
+				</div>
+
+				<div id="mostradorCasaAtual">
+					<span>casa</span>
+				</div>
+
+				<div class="container">
+					<div id="dado" class="mostrar-frente">
+						<figure class="frente" title="Fácil"></figure>
+						<figure class="costa" title="Médio"></figure>
+						<figure class="direita" title="Difícil"></figure>
+						<figure class="esquerda" title="Muito Difícil"></figure>
+						<figure class="cima" title="Desafio"></figure>
+						<figure class="baixo" title="ILoveYou"></figure>
+					</div>
+				</div>
+
+				<div id="botaoSair">
+					<input type="button" value="Menu inicial">
+				</div>
+
+				<div id="botaoCentralizarTela">
+					<input type="button" value="Centralizar">
+				</div>
+
+				<div class="fundoPopup"></div>
+				
+				<div id="popupPontos">
+					<div id="cabecalhoPopupPontos">
+						<header>
+							<h1> Pontuação </h1>
+							<h3> Ranking atual das equipes </h3>
+						</header>
+					</div>
+
+					<div id="containerPontos">
+						<div id="containerInformacoesPontos">
+							<div id="icone-coroa">
+								<img src="../img/icones/crown.png" />
+							</div>
+
+							<div id="nomeEquipes">
+								<p> 1. Equipe (nome da equipe) </p>
+								<p> 2. Equipe (nome da equipe) </p>
+								<p> 3. Equipe (nome da equipe) </p>
+								<p> 4. Equipe (nome da equipe) </p>
+							</div>
+
+							<div id="pontos">
+								<p id="primeiroColocado"> 00 </p>
+								<p id="segundooColocado"> 00 </p>
+								<p id="terceiroColocado"> 00 </p>
+								<p id="quartoColocado"> 00 </p>
+							</div>
+						</div>
+					</div>
+
+					<div id="botaoOkPopupPontos">
+						<input type="button" value="Ok">
+					</div>
+				</div>
+
+				<div id="popupPergunta">
+					<div id="cabecalhoPopupPergunta">
+						<header>
+							<h1> Pergunta </h1>
+							<h3> Pergunta para a Equipe (nome da equipe) </h3>
+						</header>
+					</div>
+
+					<div id="containerInformacoesPergunta">
+						<h1> Nível: </h1>
+						<h1> XXXXX </h1>
+						<h1> Pontos: </h1>
+						<h1> 00 </h1>
+					</div>
+
+					<div id="containerPergunta">
+						<div id="videoPergunta">
+							<video id="myVideo" width="640" height="360" controls>
+								<source src="" type="video/mp4">
+							</video>
+						</div>
+
+						<div id="textoPergunta">
+							<input type="text" placeholder="Digite a pergunta" />
+							<p></p>
+						</div>
+					</div>
+
+					<div id="botaoPassouAVez">
+						<input type="button" value="Passou a vez">
+					</div>
+
+					<div id="botaoErrou">
+						<input type="button" value="Errou">
+					</div>
+
+					<div id="botaoAcertou">
+						<input type="button" value="Acertou">
+					</div>
+				</div>
+
+				<div id="popupOpcoes">
+					<div id="cabecalhoPopupOpcoes">
+						<header>
+							<h1> Opções </h1>
+							<h3> Selecione suas preferências. </h3>
+						</header>
+					</div>
+
+					<div id="containerOpcoes">
+						<h2> Habilitar perguntas em vídeo? </h2>
+						<h3> Ao desabilitar, as perguntas serão ministradas pelo professor. </h3>
+
+						<label id="switchPerguntasVideo">
+							<input value="">
+							<input type="button" name="V" value="">
+						</label>
+					</div>
+
+					<div id="botaoOkPopupOpcoes">
+						<input type="button" value="Ok">
+					</div>
+				</div>
+
+				<div class="fundoPopup confirmacao"></div>
+				<div id="popupILoveYou">
+					<div id="cabecalhoILoveYou">
+						<header>
+							<h2> Sorte </h2>
+						</header>
+					</div>
+
+					<div id="textoPopupILoveYou">
+						<p> Avance 3 casas <br> e ganhe 30 pontos! </p>
+					</div>
+
+					<div id="botaoPopupILoveYou">
+						<input type="button" value="Ok">
+					</div>
+
+				</div>
+				<div id="popupPassarAVez">
+					<div id="cabecalhoPassarVez">
+						<header>
+							<h2> Passar a vez </h2>
+						</header>
+					</div>
+
+					<div id="textoPopupPassarAVez">
+						<p> Tem certeza que deseja <br> passar a vez? </p>
+					</div>
+
+					<div id="botaoSimPopupPassarVez">
+						<input type="button" value="Sim">
+					</div>
+
+					<div id="botaoNaoPopupPassarVez">
+						<input type="button" value="Não">
+					</div>
+				</div>
+
+				<div id="popupRespostaCorreta">
+					<div id="cabecalhoPopupRespostaCorreta">
+						<header>
+							<h2> Acertou! </h2>
+						</header>
+					</div>
+
+					<div id="textoPopupRespostaCorreta">
+						<p> Equipe acertou! </p>
+						<p> Avance x casas </p>
+						<p> Total de pontos: 00 </p>
+					</div>
+
+					<div id="botaoOkAcertou">
+						<input type="button" value="Ok">
+					</div>
+				</div>
+
+				<div id="popupRespostaErrada">
+					<div id="cabecalhoPopupRespostaErrada">
+						<header>
+							<h2> Errou .-. </h2>
+						</header>
+					</div>
+
+					<div id="textoPopupRespostaErrada">
+						<p> Equipe errou .-. </p>
+						<p> Volte x casas </p>
+						<p> Total de pontos: 00 </p>
+					</div>
+
+					<div id="botaoOkErrou">
+						<input type="button" value="Ok">
+					</div>
+				</div>
+
+				<div id="popupSair">
+					<div id="cabecalhoPopupSair">
+						<header>
+							<h2> Voltar ao menu </h2>
+						</header>
+					</div>
+
+					<div id="textoPopupSair">
+						<p> Tem certeza que deseja <br> voltar ao menu inicial? </p>
+
+					</div>
+
+					<div id="botaoSimPopupSair">
+						<input type="button" value="Sim">
+					</div>
+
+					<div id="botaoNaoPopupSair">
+						<input type="button" value="Não">
+					</div>
+				</div>
+
+				<div id="popupDadosEquipe">
+					<div id="cabecalhoPopupDadosEquipe">
+						<header>
+							<h1> Dados da Equipe </h1>
+						</header>
+					</div>
+
+					<div id="containerDadosEquipe">
+						<figure id="iconeEquipe">
+							<img src="" alt="">
+						</figure>
+
+						<p id="nomeEquipeDados">Equipe (nome da equipe)</p>
+
+						<div id="dados">
+							<p>Pontos</p>
+							<p>acumulados:</p>
+							<p>Casa</p>
+							<p>atual:</p>
+							<p>00</p>
+							<p>12</p>
+						</div>
+
+						<div id="botaoOkDados">
+							<input type="button" value="Ok">
+						</div>
+					</div>
+				</div>
+
+				<div id="popupAjuda">
+					<div id="cabecalhoPopupAjuda">
+						<header>
+							<h1> Ajuda </h1>
+						</header>
+					</div>
+
+					<div id="containerAjuda">
+						<div id="regras1">
+							<div id="cabecalhoRegras1">
+								<header>
+									<h1> Regra geral </h1>
+								</header>
+							</div>
+
+							<div id="containerRegras1">
+								<p> A cor verde representa perguntas de nível fácil, em caso de acerto ganha 10 pontos e avança 1 casa.</p>
+								<p> A cor azul representa perguntas de nível médio, em caso de acerto ganha 20 pontos e avança 2 casa. </p>
+								<p> A cor laranja representa perguntas de nível difícil, em caso de acerto ganha 30 pontos e avança 3 casas. </p>
+								<p> A cor vermelha representa perguntas de nível muito difícil, em caso de acerto ganha 40 pontos e avança 3 casas. </p>
+								<p> O “Desafio” representa questões mais profundas ou prendas a pagar envolvendo Libras, caso a equipe cumpra com o desafio ganha 60 pontos e avança 3 casas. </p>
+								<p> O “I Love You” representa sorte, não haverá perguntas para responder, de imediato ganha 30 pontos e avança 3 casas. </p>
+								<p> Durante a rodada, caso a equipe erre a resposta volta o número de casas que iria avançar correspondente ao nível da pergunta que foi sorteado, caso ocorra logo no início a equipe se mantém onde está. </p>
+								<p> A equipe também tem a possibilidade de pular a vez. </p>
+								<p> A partida encerra quando uma das equipes chegar primeiro ao final do caminho, logo em seguida serão contabilizados os pontos e com maior pontuação, em caso de empate de pontos, ganha quem estiver na próximo do final do caminho. </p>
+								<p> Podendo também ficar a critério do professor estabelecer a equipe vencedora, caso a aula termine antes do encerramento do jogo. </p>
+							</div>
+
+							<div id="botaoVoltarRegras1">
+								<input type="button" value="Voltar para o jogo">
+							</div>
+
+							<div id="botaoProsseguirRegras1">
+								<input type="button" value="Prosseguir">
+							</div>
+						</div>
+
+						<div id="regras2">
+							<div id="cabecalhoRegras2">
+								<header>
+									<h1> Dificuldades e Termos </h1>
+								</header>
+							</div>
+
+							<div id="containerRegras2">
+								<figure>
+									<img src="../img/facesDado/1.png" />
+								</figure>
+
+								<div id="textoExplicativo">
+									<h2> Dificuldade: Fácil </h2>
+									<p> Ao acertar uma questão de nível fácil, avance 1 casa. </p>
+									<p> Pontos adquiridos: 10 </p>
+								</div>
+							</div>
+
+							<div id="espacoBotoesAjuda">
+								<input type="button" value="1" name="1">
+								<input type="button" value="2" name="2">
+								<input type="button" value="3" name="3">
+								<input type="button" value="4" name="4">
+								<input type="button" value="" name="desafio">
+								<input type="button" value="" name="ily">
+							</div>
+
+							<div id="botaoVoltarRegras2">
+								<input type="button" value="Voltar">
+							</div>
+
+							<div id="botaoProsseguirRegras2">
+								<input type="button" value="Voltar para o jogo">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="popupEquipeChegouFinal">
+					<div id="textoEquipeChegouFinal">
+						<p> Equipe XXX chegou <br> ao final </p>
+					</div>
+
+					<div id="botaoOkEquipeChegouFinal">
+						<input type="button" value="Ok">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fechar_container_left"></div>
+		<div id="fechar_container_top"></div>
+		<div id="fechar_container_right"></div>
+		<div id="fechar_container_bottom"></div>
+	</div>
+</body>
+<script src="../js/function_centralizar_tela_principal.js"></script>
+<script src="../js/function_transicao_telas.js"></script>
+<script src="../js/function_abrir_popup_encerrar_partida.js"></script>
+<script src="../js/functions_tabuleiro/function_mostrar_icones_equipe_jogando.js"></script>
+<script src="../js/functions_tabuleiro/function_animacao_fila_equipes.js"></script>
+<script src="../js/functions_tabuleiro/function_girar_dado.js"></script>
+<script src="../js/functions_tabuleiro/function_mostrar_casa_atual.js"></script>
+<script src="../js/functions_tabuleiro/function_zoom.js"></script>
+<script src="../js/functions_tabuleiro/function_abrir_popup_pontos.js"></script>
+<script src="../js/functions_tabuleiro/function_mostrar_pinos_posicionados.js"></script>
+<script src="../js/functions_tabuleiro/function_mover_pinos_frente.js"></script>
+<script src="../js/functions_tabuleiro/function_mover_pinos_tras.js"></script>
+<script src="../js/functions_tabuleiro/function_abrir_popup_opcoes.js"></script>
+<script src="../js/functions_tabuleiro/function_abrir_popup_pergunta.js"></script>
+<script src="../js/functions_tabuleiro/function_abrir_popup_ajuda.js"></script>
+<script src="../js/functions_tabuleiro/function_equipe_ganhou.js"></script>
+</html>

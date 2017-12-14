@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cadastro de equipes </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/modelo.css">
+	<link rel="stylesheet" type="text/css" href="../css/informacoes_equipe.css">
+	<script type="text/javascript" src="../js/functions_jquery/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="tela_principal">
+			<div id="conteudo">
+				<div id="cabecalhoTela">
+					<header>
+						<h1> Cadastrar Equipes </h1>
+						<h4> Podem ser cadastradas até quatro equipes por partida. </h4>
+					</header>
+				</div>
+
+				<div id="containerCadastrarEquipe">
+					<figure id="img_equipe1">
+						<img src="" alt="Equipe 1" />
+					</figure>
+					<label id="lb_equipe1"> Equipe 1 </label>
+
+					<figure id="img_equipe2">
+						<img src="" alt="Equipe 2" />
+					</figure>
+					<label id="lb_equipe2"> Equipe 2 </label>
+
+					<figure id="img_equipe3">
+						<img src="" alt="Equipe 3" />
+					</figure>
+					<label id="lb_equipe3"> Equipe 3 </label>
+
+					<figure id="img_equipe4">
+						<img src="" alt="Equipe 4" />
+					</figure>
+					<label id="lb_equipe4"> Equipe 4 </label>
+
+					<div id="img_addEquipe">
+						<input type="button" value= "+" />
+					</div>
+					<label id="lb_addEquipe"> Adicionar </label>
+
+					<div id="img_removerEquipe">
+						<input type="button" value= "-" />
+					</div>
+					<label id="lb_removerEquipe"> Excluir </label>
+				</div>
+
+				<figure id="iconeBotaoVoltar">
+					<img src="" alt="" />
+				</figure>
+				<div id="botaoVoltar">
+					<input type="button" value="Voltar" name="../index.html">
+				</div>
+				
+				<figure id="iconeBotaoProximo">
+					<img src="" alt="" />
+				</figure>
+				<div id="botaoProximo">
+					<input type="button" value="Avançar" name="opcoes.html" disabled>
+				</div>
+
+				<div id="etapas">
+					<div id="etapa1"> <span>1</span> </div>
+					<div id="etapa2"> <span>2</span> </div>
+					<div id="etapa3"> <span>3</span> </div>
+				</div>
+
+				<div id="fundoPopup"></div>
+
+				<div id="popup">
+					<div id="cabecalhoPopup">
+						<header>
+							<h1> Edite sua equipe </h1>
+						</header>
+					</div>
+
+					<div id="containerInformacoesEquipe">
+						<label id="lb_equipe"> Nome da equipe: </label>
+						<div id="nome_equipe">
+							<input type="text" value="" placeholder="Digite aqui o nome da sua equipe">
+						</div>
+
+						<label id="lb_icone"> Ícone da equipe: </label>
+						<div id="containerIcones">
+							<figure id="icone1">
+								<img src="../img/pinos/amarelo.png" title="Ícone amarelo" alt="amarela"/>
+							</figure>
+
+							<figure id="icone2">
+								<img src="../img/pinos/azul.png" title="Ícone azul" alt="azul"/>
+							</figure>
+
+							<figure id="icone3">
+								<img src="../img/pinos/preto.png"  title="Ícone preto" alt="preta"/>
+							</figure>
+
+							<figure id="icone4">
+								<img src="../img/pinos/rosa.png"  title="Ícone rosa" alt="rosa"/>
+							</figure>
+
+							<figure id="icone5">
+								<img src="../img/pinos/verde.png"  title="Ícone verde" alt="verde"/>
+							</figure>
+
+							<figure id="icone6">
+								<img src="../img/pinos/vermelho.png"  title="Ícone vermelho" alt="vermelha"/>
+							</figure>
+						</div>
+					</div>
+
+					<div id="botaoRetornar">
+						<input type="button" value="Retornar" name="adicionar_informacoes_equipe.html">
+					</div>
+
+					<div id="botaoSalvar">
+						<input type="button" value="Salvar" name="adicionar_informacoes_equipe.html">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fechar_container_left"></div>
+		<div id="fechar_container_top"></div>
+		<div id="fechar_container_right"></div>
+		<div id="fechar_container_bottom"></div>
+	</div>
+</body>
+<script src="../js/function_centralizar_tela_principal.js"></script>
+<script src="../js/function_mover_background.js"></script>
+<script src="../js/function_transicao_telas.js"></script>
+<script src="../js/functions_informacoes_equipe/function_organizar_numero_equipes_mostradas.js"></script>
+<script src="../js/functions_informacoes_equipe/function_imagens_mostradas_popup.js"></script>
+<script src="../js/functions_informacoes_equipe/function_hover_click_bts_cadastrar_equipe.js"></script>
+<script src="../js/functions_informacoes_equipe/function_bt_voltar_menu.js"></script>
+<script src="../js/functions_informacoes_equipe/function_bt_retornar_cadastrar_equipe.js"></script>
+<script src="../js/functions_informacoes_equipe/function_hover_click_dados_popup.js"></script>
+<script src="../js/functions_informacoes_equipe/function_salvar_alteracoes.js"></script>
+<script src="../js/functions_informacoes_equipe/function_organizar_numero_icones_mostrados.js"></script>
+<script src="../js/functions_informacoes_equipe/function_bt_proximo_etapa.js"></script>
+</html>

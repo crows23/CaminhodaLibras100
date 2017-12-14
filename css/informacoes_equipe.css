@@ -1,0 +1,593 @@
+@charset "utf8";
+
+#cabecalhoTela {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	padding: 10px;
+	width: 631.7px;
+	height: 98px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: #F3EBE0;
+	color: #283891;
+	text-align: center;
+}
+
+#cabecalhoTela > header > h1 {
+	font-size: 48px;
+}
+
+#cabecalhoTela > header > h4 {
+	font-size: 22px;
+	font-family: 'Open';
+}
+
+#containerCadastrarEquipe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 140px;
+	margin-left: 210.7px;
+    padding: 10px;
+    width: 930px;
+    height: 465px;
+	border-radius: 40px;
+	background-color: #F3EBE0;
+}
+
+#containerCadastrarEquipe > figure > img {
+	width: 100%;
+	height: 100%;
+}
+
+#img_equipe1 {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 65px;
+	margin-left: 150px;
+	padding: 10px;
+	width: 182px;
+	height: 142px;
+	line-height: 250px;
+	font-size: 20px;
+	border: 4px solid #E9A93F;
+	border-radius: 100px 100px 10px 10px/30px 30px 10px 10px;
+	background-color: #E9A93F;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+	transition: border 0.2s linear;
+}
+
+#lb_equipe1 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 191.4px;
+	margin-left: 173px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 133.5px;
+	text-align: center;
+}
+
+#img_equipe2 {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 65px;
+	margin-left: 375px;
+	padding: 10px;
+	width: 182px;
+	height: 142px;
+	line-height: 250px;
+	font-size: 20px;
+	border: 4px solid #E9A93F;
+	border-radius: 100px 100px 10px 10px/30px 30px 10px 10px;
+	text-align: center;
+	background-color: #E9A93F;
+	font-family: 'Luckiest';
+	color: #f3efe2;
+	transition: border 0.2s linear;
+}
+
+#lb_equipe2 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 386.1px;
+	margin-left: 173px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 133.5px;
+	text-align: center;
+}
+
+#img_equipe3 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 255px;
+	margin-left: 150px;
+	padding: 10px;
+	width: 182px;
+	height: 142px;
+	line-height: 50px;
+	font-size: 20px;
+	border: 4px solid #E9A93F;
+	border-radius: 10px 10px 100px 100px/10px 10px 30px 30px;
+	text-align: center;
+	background-color: #E9A93F;
+	font-family: 'Luckiest';
+	color: #f3efe2;
+	transition: border 0.2s linear;
+}
+
+#lb_equipe3 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 191.4px;
+	margin-left: 433px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 133.5px;
+	text-align: center;
+}
+
+#img_equipe4 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 255px;
+	margin-left: 375px;
+	padding: 10px;
+	width: 182px;
+	height: 142px;
+	line-height: 50px;
+	font-size: 20px;
+	border: 4px solid #E9A93F;
+	border-radius: 10px 10px 100px 100px/10px 10px 30px 30px;
+	text-align: center;
+	background-color: #E9A93F;
+	font-family: 'Luckiest';
+	color: #f3efe2;
+	transition: border 0.2s linear;
+}
+
+#lb_equipe4 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 386.1px;
+	margin-left: 433px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 133.5px;
+	text-align: center;
+}
+
+#lb_addEquipe {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 81px;
+	margin-left: 590.5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 126px;
+	text-align: right;
+	font-size: 20px;
+	font-family: 'Luckiest';
+	color: #283891;
+}
+
+#lb_removerEquipe {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 146px;
+	margin-left: 590.5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 126px;
+	text-align: right;
+	font-size: 20px;
+	font-family: 'Luckiest';
+	color: #283891;
+}
+
+#img_addEquipe {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 65px;
+	margin-left: 734px;
+	width: 85.5px;
+    height: 53px;
+    border-radius: 20px;
+}
+
+#img_removerEquipe {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 130px;
+	margin-left: 734px;
+	width: 85.5px;
+    height: 53px;
+    border-radius: 20px;
+}
+
+#img_addEquipe > input {
+	width: 100%;
+	height: 100%;
+	border: 4px solid #E9A93F;
+	border-radius: 20px;
+	background-color: #E9A93F;
+	font-family: 'Luckiest';
+	font-size: 25px;
+	color: #f3efe2;
+	transform: perspective(1px) translateZ(0px);
+	transition: all 0.2s linear;
+}
+
+#img_removerEquipe > input {
+	width: 100%;
+	height: 100%;
+	border: 4px solid #283891;
+	border-radius: 20px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	font-size: 25px;
+	color: #283891;
+	transform: perspective(1px) translateZ(0px);
+	transition: all 0.2s linear;
+}
+
+#botaoVoltar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 715px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-right: none;
+}
+
+#botaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 715px;
+	margin-left: 1181px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-left: none;
+}
+
+#botaoVoltar > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-right: none;
+	border-top-left-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#botaoProximo > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-left: none;
+	border-top-right-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 0.5);
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoVoltar {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+    margin-left: 169px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1009px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#etapas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 690px;
+	margin-left: 476.5px;
+	width: 400px;
+	height: 73px;
+	border: 5px solid #f3efe2;
+	border-bottom: 0px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+}
+
+#etapa1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33px;
+	height: 33px;
+    margin-left: 65px;
+    margin-top: -20px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #283891;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 183px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #994822;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 295px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #994822;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#fundoPopup {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 1366px;
+	height: 768px;
+	background-color: #000;
+	opacity: 0.7;
+}
+/*================================================================ POPUP ================================================================*/
+#popup {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	margin-top: 65px;
+	margin-left: 83px;
+	width: 1200px;
+	height: 638px;
+	border-radius: 20px;
+	background-color: #1d3160;
+}
+
+#cabecalhoPopup {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	padding: 10px;
+	width: 580px;
+	height: 98px;
+	background-color: #F3EBE0;
+	color: #283891;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#cabecalhoPopup > header > h1 {
+	font-size: 48px;
+	line-height: 98px;
+}
+
+#containerInformacoesEquipe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 140px;
+	margin-top: 135px;
+	padding: 10px;
+	width: 900px;
+	height: 400px;
+	border-radius: 35px;
+	background-color: #F3EBE0;
+}
+
+#lb_equipe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 90px;
+	margin-top: 58px;
+	color: #283891;
+	font-family: 'Open';
+	font-size: 25px;
+}
+
+#nome_equipe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 300px;
+	margin-top: 54.1px;
+	width: 307.6px;
+	height: 42.2px;
+}
+
+#nome_equipe > input {
+	width: 350px;
+	height: 28px;
+	font-size: 20px;
+	border: 0;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #eaab3b;
+	font-family: 'Luckiest';
+	color: #283891;
+	text-align: center;
+}
+
+#lb_icone {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 90px;
+	margin-top: 130px;
+	color: #283891;
+	font-family: 'Open';
+	font-size: 25px;
+}
+
+#containerIcones {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 79px;
+	margin-top: 180px;
+	width: 761.5px;
+	height: 105px;
+	text-align: center;
+}
+
+#containerIcones > figure {
+	display: inline-block;
+	width: 14.2%;
+	height: 100%;
+	margin-left: 12px;
+	border: 2px solid #eaab3b;
+	border-radius: 20px;
+	background-color: #eaab3b;
+	transition: all 0.2s linear;
+}
+
+#containerIcones > figure:nth-child(1) {
+	margin-left: 0;
+}
+
+#containerIcones > figure > img {
+	width: 100%;
+	height: 100%;
+}
+
+#botaoRetornar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 459px;
+	margin-left: 410px;
+	width: 140px;
+	height: 50px;
+}
+
+#botaoSalvar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 459px;
+	margin-left: 650px;
+	width: 140px;
+	height: 50px;
+}
+
+#botaoRetornar > input {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	border: 4px solid #eaab3b;
+	border-radius: 20px;
+	background-color: #eaab3b;
+	font-family: 'Luckiest';
+	color: #283891;
+  	transform: perspective(1px) translateZ(0px);
+  	transition: all 0.3s linear;
+}
+
+#botaoSalvar > input {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	border: 4px solid #eaab3b;
+	border-radius: 20px;
+	background-color: #eaab3b;
+	font-family: 'Luckiest';
+	color: #283891;
+	transform: perspective(1px) translateZ(0px);
+  	transition: all 0.3s linear;
+}

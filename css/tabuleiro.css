@@ -1,0 +1,402 @@
+#tabuleiro {
+	background: url("../img/tabuleiro.svg");
+	background-repeat: no-repeat;
+	background-size: 1366px 768px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1366px;
+	height: 768px;
+}
+
+#tabuleiroZoom {
+	position: absolute;
+	top: -384px;
+    left: -682px;
+    width: 2048px;
+    height: 1152px;
+}
+
+#espacoIcones {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 639.9px;
+	width: 372.485px;
+	height: 128px;
+}
+
+#espacoIcones > #primeiraEquipeJogandoAgora {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 0px;
+	margin-top: -20px;
+	padding: 2px;
+	width: 132.194px;
+	height: 114px;
+	background-color: #E9A93F;
+	border: 10px solid #f3efe2;
+	border-top: 30px solid #f3efe2;
+	border-bottom: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#espacoIcones > #primeiraEquipeJogandoAgora > img {
+	border-radius: 10px 10px 0px 0px/150px 150px 0px 0px;
+}
+
+#espacoIcones > #primeiraEquipeJogandoAgora > p {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: -25px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Open';
+	color: #283891;
+	opacity: 1;
+	transition: all 0.2s linear;
+}
+
+#espacoIcones > #segundaEquipeJogandoAgora {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 73px;
+    margin-left: 156.2px;
+    padding: 2px;
+	width: 64.097px;
+	height: 49px;
+	background-color: #f3efe2;
+	border: 2px solid #f3efe2;
+	border-bottom: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#espacoIcones > #terceiraEquipeJogandoAgora {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 73px;
+    margin-left: 228.2px;
+    padding: 2px;
+	width: 64.097px;
+	height: 49px;
+	border: 2px solid #f3efe2;
+	background-color: #f3efe2;
+	border-bottom: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#espacoIcones > #quartaEquipeJogandoAgora {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 73px;
+    margin-left: 300.2px;
+    padding: 2px;
+	width: 64.097px;
+	height: 49px;
+	border: 2px solid #f3efe2;
+	background-color: #f3efe2;
+	border-bottom: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#espacoIcones > #segundaEquipeJogandoAgora > p, #espacoIcones > #terceiraEquipeJogandoAgora > p, #espacoIcones > #quartaEquipeJogandoAgora > p {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: -25px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Open';
+	color: #283891;
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+
+#espacoIcones > #primeiraEquipeJogandoAgora > img, #espacoIcones > #segundaEquipeJogandoAgora > img, #espacoIcones > #terceiraEquipeJogandoAgora > img, #espacoIcones > #quartaEquipeJogandoAgora > img {
+	width: 100%;
+	height: 100%;
+}
+
+#espacoBotoesOpcao {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 715px;
+    margin-left: 984px;
+	width: 362px;
+	height: 73px;
+}
+
+#espacoBotoesOpcao > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 25%;
+	height: 53px;
+	transition: all 0.1s linear;
+}
+
+#botaoZoom {
+	margin-left: 0px;
+}
+
+#botaoZoom > input {
+	padding-right: 15px;
+	background-image: url('../img/icones/zoomin.png');
+	background-repeat: no-repeat;
+	background-position: 15% 25%;
+}
+
+#botaoPontos > input {
+	padding-right: 6.5px;
+	background-image: url('../img/icones/pontos.png');
+	background-repeat: no-repeat;
+	background-position: 6.5% 20%;
+}
+
+#botaoOpcoes > input {
+	padding-right: 7.5px;
+	background-image: url('../img/icones/opcoes.png');
+	background-repeat: no-repeat;
+	background-position: 7.5% 25%;
+}
+
+#botaoAjuda > input {
+	padding-right: 12.5px;
+	background-image: url('../img/icones/ajuda.png');
+	background-repeat: no-repeat;
+	background-position: 12.5% 25%;
+}
+
+#botaoPontos {
+	margin-left: 90.5px;
+}
+
+#botaoOpcoes {
+    margin-left: 181px;
+}
+
+#botaoAjuda {
+	margin-left: 272px;
+}
+
+#botaoZoom > input, #botaoPontos > input, #botaoOpcoes > input, #botaoAjuda > input {
+	padding-bottom: 17.5px;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #f3efe2;
+	border-bottom: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: right;
+	font-size: 14px;
+	color: #283891;
+	transition: all 0.1s linear;
+}
+
+#mostradorCasaAtual {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 70px;
+	line-height: 50px;
+	font-size: 25px;
+	border-bottom-right-radius: 10px;
+	background-image: url('../img/icones/mostradorCasa.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: 'Luckiest';
+	color: #f3efe2;
+	transition: all 0.1s linear;
+}
+
+@keyframes animacaoDado {
+	16.65% {transform: skew(-12deg);}
+    33.3%  {transform: skew(10deg); }
+    49.95% {transform: skew(-6deg); }
+    66.6%  {transform: skew(4deg);  }
+    83.25% {transform: skew(-2deg); }
+    100%   {transform: skew(0deg);     }
+}
+
+.animacaoDado {
+	animation-name: animacaoDado;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 550px;
+    margin-left: 1020px;
+	width: 100px;
+	height: 100px;
+	perspective: 1000px;
+}
+
+#dado {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.2s;
+}
+
+#dado > figure {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	line-height: 100px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+#dado .frente {
+	background: #6075bd url('../img/facesDado/1.png') no-repeat center;
+	background-size: 75%;
+}
+#dado .costa   {
+	background: #182b68 url('../img/facesDado/2.png') no-repeat center;
+	background-size: 75%;
+}
+#dado .direita  {
+	background: #e9a93f url('../img/facesDado/3.png') no-repeat center;
+	background-size: 75%;
+}
+#dado .esquerda   {
+	background: #99450e url('../img/facesDado/4.png') no-repeat center;
+	background-size: 75%;
+}
+#dado .cima    {
+	background: #0b1238 url('../img/facesDado/desafio.png') no-repeat center;
+	background-size: 75%;
+}
+#dado .baixo {
+	background: #ffd767 url('../img/facesDado/ily.png') no-repeat center;
+	background-size: 75%;
+}
+
+#dado .frente  {
+	transform: rotateX(-15deg) rotateY(-20deg) translateZ(52px);
+}
+#dado .costa   {
+	transform: rotateX(165deg) rotateY(20deg) translateZ(52px);
+}
+#dado .direita {
+	transform: rotateX(-15deg) rotateY(70deg) translateZ(52px);
+}
+#dado .esquerda {
+	transform: rotateX(-15deg) rotateY(-110deg) translateZ(52px);
+}
+#dado .cima {
+    transform: rotateX(75deg) rotateZ(20deg) translateZ(52px);
+}
+#dado .baixo {
+    transform: rotateX(-105deg) rotateZ(-20deg) translateZ(52px);
+}
+
+#dado .mostrar-frente {
+	transform: translateZ(-52px);
+}
+#dado.mostrar-costa {
+	transform: translateZ(-52px) rotateX(5deg) rotateY(-220deg) rotateZ(170deg);
+}
+#dado.mostrar-direita {
+	transform: translateZ(-52px) rotateX(-14deg) rotateZ(13deg) rotateY(-90deg);
+}
+#dado.mostrar-esquerda {
+	transform: translateZ(-52px) rotateX(-102deg) rotateY(108deg) rotateZ(88deg);
+}
+#dado.mostrar-cima {
+	transform: translateZ(-52px) rotateX(-82deg) rotateY(15deg) rotateZ(-28deg);
+}
+#dado.mostrar-baixo {
+	transform: translateZ(-52px) rotateX(85deg) rotateY(20deg) rotateZ(13deg);
+}
+
+#botaoSair {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1216px;
+	width: 130px;
+	height: 33px;
+}
+
+#botaoSair > input {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	border: 0;
+	background-color: #f3efe2;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Luckiest';
+	color: #283891;
+	transition: all 0.1s linear;
+}
+
+#botaoCentralizarTela {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+    margin-left: 583px;
+	width: 100px;
+	height: 33px;
+	transition: all 0.1s linear;
+}
+
+#botaoCentralizarTela > input {
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	border: 2px solid #f3efe2;
+	background-color: #f3efe2;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Luckiest';
+	color: #283891;
+	transition: all 0.1s linear;
+}
+
+#mostradorDirecaoMoverImagem > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	display: none;
+}
+
+#mostradorDirecaoMoverImagem > div > img {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,256 @@
+@charset "utf8";
+
+#cabecalhoTela {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	padding: 10px;
+	width: 631.7px;
+	height: 98px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: #F3EBE0;
+	color: #283891;
+	text-align: center;
+}
+
+#cabecalhoTela > header > h1 {
+	font-size: 48px;
+}
+
+#cabecalhoTela > header > h4 {
+	font-size: 22px;
+	font-family: 'Open';
+}
+
+#containerOrdemEquipes {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 140px;
+	margin-left: 210.7px;
+    padding: 10px;
+    width: 930px;
+    height: 465px;
+	border-radius: 40px;
+	background-color: #F3EBE0;
+}
+
+#botaoVoltar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 715px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-right: none;
+}
+
+#botaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 715px;
+	margin-left: 1181px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-left: none;
+}
+
+#botaoVoltar > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-right: none;
+	border-top-left-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#botaoProximo > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-left: none;
+	border-top-right-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoVoltar {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+    margin-left: 169px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1009px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#etapas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 690px;
+	margin-left: 476.5px;
+	width: 400px;
+	height: 73px;
+	border: 5px solid #f3efe2;
+	border-bottom: 0px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+}
+
+#etapas > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33px;
+	height: 33px;
+	font-family: 'Luckiest';
+	color: #f3efe2;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 33px;
+}
+
+#etapa1 {
+    margin-left: 65px;
+    margin-top: -20px;
+	background-color: #994822;
+}
+
+#etapa2 {
+	margin-left: 183px;
+	margin-top: -20px;
+	background-color: #994822;
+}
+
+#etapa3 {
+	margin-left: 295px;
+	margin-top: -20px;
+	background-color: #283891;
+}
+
+#botaoSair {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1216px;
+	width: 130px;
+	height: 33px;
+}
+
+#botaoSair > input {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	border: 0;
+	background-color: #f3efe2;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Luckiest';
+	color: #283891;
+	transition: all 0.1s linear;
+}
+
+#containerOrdemEquipes > figure {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	width: 190px;
+	height: 150px;
+	background-color: #E9A93F;
+}
+
+#containerOrdemEquipes > label {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	color: #283891;
+	font-family: 'Luckiest';
+	font-size: 64px;
+}
+
+#primeiraEquipeJogar {
+	margin-top: 65px;
+	margin-left: 200px;
+	border-radius: 100px 100px 10px 10px/30px 30px 10px 10px;
+}
+
+#segundaEquipeJogar {
+	margin-top: 65px;
+	margin-left: 560px;
+	border-radius: 100px 100px 10px 10px/30px 30px 10px 10px;
+}
+
+#terceiraEquipeJogar {
+	margin-top: 255px;
+	margin-left: 200px;
+	border-radius: 10px 10px 100px 100px/10px 10px 30px 30px;
+}
+
+#quartaEquipeJogar {
+	margin-top: 255px;
+	margin-left: 560px;
+	border-radius: 10px 10px 100px 100px/10px 10px 30px 30px;
+}
+
+#lb_primeiraEquipe {
+	margin-top: 115px;
+	margin-left: 120px;
+}
+
+#lb_segundaEquipe {
+	margin-top: 115px;
+	margin-left: 480px;
+}
+
+#lb_terceiraEquipe {
+	margin-top: 295px;
+	margin-left: 120px;
+}
+
+#lb_quartaEquipe {
+	margin-top: 295px;
+	margin-left: 480px;
+}

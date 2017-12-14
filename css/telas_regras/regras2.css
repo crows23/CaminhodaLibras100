@@ -1,0 +1,366 @@
+@charset "utf8";
+
+
+#cabecalhoTela {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	padding: 10px;
+	width: 631.7px;
+	height: 98px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: #F3EBE0;
+	text-align: center;
+}
+
+#cabecalhoTela > header > h1 {
+	color: #283891;
+	margin-top: 20px;
+	font-size: 48px;
+}
+
+#containerRegras {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 140px;
+	margin-left: 210.7px;
+    padding: 10px;
+    width: 930px;
+    height: 465px;
+	border-radius: 40px;
+	background-color: #F3EBE0;
+}
+
+#containerRegras > header > h1 {
+	margin-left: 25px;
+	color: #283891;
+	font-size: 48px;
+}
+
+#containerRegras > #explicacaoRegra {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 70px;
+    margin-left: 30px;
+    padding: 10px;
+    width: 650px;
+    height: 365px;
+	border-radius: 40px;
+	background-color: #eaab3b;
+}
+
+#containerRegras > #explicacaoRegra > p {
+	font-family: 'Open';
+}
+
+#containerRegras > #explicacaoRegra > figure {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 42.5px;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+	border-radius: 40px;
+	background-color: #6075bd;
+	opacity: 1;
+	transition: all 0.3s linear;
+}
+
+#containerRegras > #explicacaoRegra > figure > img { 
+	border-radius: 40px;
+	margin-top: 35px;
+    margin-left: 25px;
+	width: 75%;
+	height: 80%;
+	opacity: 1;
+	transition: all 0.3s linear;
+}
+
+#containerRegras > #explicacaoRegra > #textoExplicativo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 20px;
+    margin-left: 340px;
+    width: 310px;
+    height: 345px;
+    border-radius: 40px;
+	color: #283891;
+	white-space: normal;
+	overflow: hidden;
+}
+
+#containerRegras > #explicacaoRegra:hover {
+	overflow: auto;
+}
+
+#containerRegras > #explicacaoRegra > #textoExplicativo > h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-family: 'Open';
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+#containerRegras > #explicacaoRegra > #textoExplicativo > p:nth-child(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 60px;
+	margin-left: 10px;
+	font-family: 'Open';
+	font-size: 18px;
+	opacity: 1;
+	transition: all 0.6s linear;
+}
+
+#containerRegras > #explicacaoRegra > #textoExplicativo > p:nth-child(3) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 120px;
+	margin-left: 10px;
+	font-family: 'Open';
+	font-size: 18px;
+	opacity: 1;
+	transition: all 0.7s linear;
+}
+
+#containerRegras > #explicacaoRegra > #textoExplicativo > p:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 220px;
+	margin-left: 10px;
+	font-family: 'Open';
+	font-size: 18px;
+	opacity: 1;
+	transition: all 0.8s linear;
+}
+
+#espacoBotoes {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 70px;
+    margin-left: 725px;
+    width: 200px;
+    height: 385px;
+	border-radius: 40px;
+}
+
+#espacoBotoes > input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 95px;
+    height: 60px;
+    border: 4px solid #283891;
+	border-radius: 20px;
+	background-color: #F3EBE0;
+	font-family: 'Luckiest';
+	font-size: 35px;
+	color: #283891;
+	transition: all 0.2s linear;
+}
+
+#espacoBotoes > input:nth-child(1) {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#espacoBotoes > input:nth-child(2) {
+	margin-top: 0px;
+	margin-left: 105px;
+}
+
+#espacoBotoes > input:nth-child(3) {
+	margin-top: 80px;
+	margin-left: 0px;
+}
+
+#espacoBotoes > input:nth-child(4) {
+	margin-top: 80px;
+	margin-left: 105px;
+}
+
+#espacoBotoes > input:nth-child(5) {
+	margin-top: 160px;
+	margin-left: 0px;
+	background-image: url('../../img/icones/icon_desafio.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#espacoBotoes > input:nth-child(6) {
+	margin-top: 160px;
+	margin-left: 105px;
+	background-image: url('../../img/icones/icon_ily.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#botaoVoltar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 715px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-right: none;
+}
+
+#botaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 715px;
+	margin-left: 1181px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-left: none;
+}
+
+#botaoVoltar > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-right: none;
+	border-top-left-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#botaoProximo > input {
+	white-space: normal;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-left: none;
+	border-top-right-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 18px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoVoltar {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+    margin-left: 169px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1009px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#etapas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 690px;
+	margin-left: 476.5px;
+	width: 400px;
+	height: 73px;
+	border: 5px solid #f3efe2;
+	border-bottom: 0px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+}
+
+#etapa1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33px;
+	height: 33px;
+    margin-left: 125px;
+    margin-top: -20px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #994822;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 242px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #283891;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#botaoSair {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1216px;
+	width: 130px;
+	height: 33px;
+}
+
+#botaoSair > input {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	border: 0;
+	background-color: #f3efe2;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Luckiest';
+	color: #283891;
+	transition: all 0.1s linear;
+}

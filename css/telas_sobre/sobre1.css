@@ -1,0 +1,224 @@
+@charset "utf8";
+
+
+#cabecalhoTela {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	padding: 10px;
+	width: 631.7px;
+	height: 98px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: #F3EBE0;
+	text-align: center;
+}
+
+#cabecalhoTela > header > h1 {
+	color: #283891;
+	margin-top: 20px;
+	font-size: 48px;
+}
+
+#containerSobre {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 140px;
+	margin-left: 210.7px;
+    padding: 10px;
+    width: 930px;
+    height: 465px;
+	border-radius: 40px;
+	background-color: #F3EBE0;
+}
+
+#containerSobre > header > h1 {
+	margin-left: 25px;
+	color: #283891;
+	font-size: 48px;
+}
+
+#containerSobre > #explicacaoSobre {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px;
+	margin-top: 70px;
+    margin-left: 30px;
+    width: 830px;
+    height: 325px;
+	border-radius: 40px;
+	background-color: #eaab3b;
+	overflow: hidden;
+}
+
+#containerSobre > #explicacaoSobre:hover {
+	overflow: auto;
+}
+
+#containerSobre > #explicacaoSobre > p {
+	width: 800px;
+	margin-top: 20px;
+	font-size: 22px;
+	color: #283891;
+	font-family: 'Open';
+}
+
+#containerSobre > #explicacaoSobre > p:nth-child(1) {
+	margin-top: 0px;
+}
+
+#botaoVoltar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 715px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-right: none;
+}
+
+#botaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 715px;
+	margin-left: 1181px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-left: none;
+}
+
+#botaoVoltar > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-right: none;
+	border-top-left-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#botaoProximo > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-left: none;
+	border-top-right-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoVoltar {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+    margin-left: 169px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1009px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#etapas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 690px;
+	margin-left: 476.5px;
+	width: 400px;
+	height: 73px;
+	border: 5px solid #f3efe2;
+	border-bottom: 0px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+}
+
+#etapa1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33px;
+	height: 33px;
+    margin-left: 65px;
+    margin-top: -20px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #283891;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 183px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #994822;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 295px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #994822;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}

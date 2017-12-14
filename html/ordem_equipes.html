@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ordem das Equipes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/modelo.css">
+	<link rel="stylesheet" type="text/css" href="../css/ordem_equipes.css">
+	<link rel="stylesheet" type="text/css" href="../css/popups.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup_encerrar_partida/popup_encerrar_partida.css">
+	<script type="text/javascript" src="../js/functions_jquery/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="tela_principal">
+			<div id="cabecalhoTela">
+				<header>
+					<h1> Ordem das equipes </h1>
+					<h4> Turno de cada equipe. </h4>
+				</header>
+			</div>
+			
+			<div id="containerOrdemEquipes">
+				<label id="lb_primeiraEquipe">1.</label>
+				<figure id="primeiraEquipeJogar">
+					<img src="" alt="" />
+				</figure>
+
+				<label id="lb_segundaEquipe">2.</label>
+				<figure id="segundaEquipeJogar">
+					<img src="" alt="" />
+				</figure>
+
+				<label id="lb_terceiraEquipe">3.</label>
+				<figure id="terceiraEquipeJogar">
+					<img src="" alt="" />
+				</figure>
+
+				<label id="lb_quartaEquipe">4.</label>
+				<figure id="quartaEquipeJogar">
+					<img src="" alt="" />
+				</figure>
+			</div>
+
+			<figure id="iconeBotaoVoltar">
+				<img src="" alt="" />
+			</figure>
+			<div id="botaoVoltar">
+				<input type="button" value="Voltar">
+			</div>
+
+			<figure id="iconeBotaoProximo">
+				<img src="" alt="" />
+			</figure>
+			<div id="botaoProximo">
+				<input type="button" value="Avançar">
+			</div>
+
+			<div id="etapas">
+				<div id="etapa1"> <span>1</span> </div>
+				<div id="etapa2"> <span>2</span> </div>
+				<div id="etapa3"> <span>3</span> </div>
+			</div>
+
+			<div id="botaoSair">
+				<input type="button" value="Menu inicial">
+			</div>
+
+			<div class="fundoPopup"></div>
+
+			<div id="popupSair">
+				<div id="cabecalhoPopupSair">
+					<header>
+						<h2> Voltar ao menu </h2>
+					</header>
+				</div>
+
+				<div id="textoPopupSair">
+					<p> Tem certeza que deseja <br> voltar ao menu inicial? </p>
+
+				</div>
+
+				<div id="botaoSimPopupSair">
+					<input type="button" value="Sim">
+				</div>
+
+				<div id="botaoNaoPopupSair">
+					<input type="button" value="Não">
+				</div>
+			</div>
+		</div>
+		<div id="fechar_container_left"></div>
+		<div id="fechar_container_top"></div>
+		<div id="fechar_container_right"></div>
+		<div id="fechar_container_bottom"></div>
+	</div>
+</body>
+<script src="../js/function_centralizar_tela_principal.js"></script>
+<script src="../js/function_mover_background.js"></script>
+<script src="../js/function_transicao_telas.js"></script>
+<script src="../js/function_abrir_popup_encerrar_partida.js"></script>
+<script src="../js/functions_randomizacao_equipe/function_organizar_equipes_mostradas.js"></script>
+<script src="../js/functions_randomizacao_equipe/function_randomizacao_equipes.js"></script>
+<script src="../js/functions_randomizacao_equipe/function_bt_voltar.js"></script>
+<script src="../js/functions_randomizacao_equipe/function_bt_avancar.js"></script>
+</html>

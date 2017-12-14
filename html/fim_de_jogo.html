@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fim de Jogo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/modelo.css">
+	<link rel="stylesheet" type="text/css" href="../css/fim_de_jogo.css">
+	<script type="text/javascript" src="../js/functions_jquery/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="tela_principal">
+			<div id="cabecalhoTela">
+				<header>
+					<h1> FIM DE JOGO </h1>
+				</header>
+			</div>
+			
+			<div id="containerFimJogo">
+				<div id="containerInformacoesEquipeGanhadora">
+					<h1> Equipe () ganhou!!! </h1>
+					<h2> Total de 000 pontos </h2>
+				</div>
+
+				<div id="containerInformacoesPontos">
+					<div id="icone-coroa">
+						<img src="../img/icones/crown.png" />
+					</div>
+
+					<div id="nomeEquipes">
+						<p> 1. Equipe (nome da equipe) </p>
+						<p> 2. Equipe (nome da equipe) </p>
+						<p> 3. Equipe (nome da equipe) </p>
+						<p> 4. Equipe (nome da equipe) </p>
+					</div>
+
+					<div id="pontos">
+						<p id="primeiroColocado"> 00 </p>
+						<p id="segundooColocado"> 00 </p>
+						<p id="terceiroColocado"> 00 </p>
+						<p id="quartoColocado"> 00 </p>
+					</div>
+				</div>
+
+				<input id="jogarNovamente" type="button" value="Jogar novamente">
+				<input id="recadastrarEquipes" type="button" value="Recadastrar equipes">
+				<input id="voltarMenuInicial" type="button" value="Voltar ao menu inicial">
+			</div>
+		</div>
+		<div id="fechar_container_left"></div>
+		<div id="fechar_container_top"></div>
+		<div id="fechar_container_right"></div>
+		<div id="fechar_container_bottom"></div>
+	</div>
+</body>
+<script type="text/javascript" src="../js/function_centralizar_tela_principal.js"></script>
+<script type="text/javascript" src="../js/function_mover_background.js"></script>
+<script type="text/javascript" src="../js/functions_fim_de_jogo/function_hovers_clicks_bts_fim_jogo.js"></script>
+</html>

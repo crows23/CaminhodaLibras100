@@ -1,0 +1,257 @@
+@charset "utf8";
+
+
+#cabecalhoTela {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	padding: 10px;
+	width: 631.7px;
+	height: 98px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: #F3EBE0;
+	text-align: center;
+}
+
+#cabecalhoTela > header > h1 {
+	color: #283891;
+	margin-top: 20px;
+	font-size: 48px;
+}
+
+#containerSobre {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 140px;
+	margin-left: 210.7px;
+    padding: 10px;
+    width: 930px;
+    height: 465px;
+	border-radius: 40px;
+	background-color: #F3EBE0;
+}
+
+#containerSobre > header:nth-child(1) > h1 {
+	position: absolute;
+	margin-left: 25px;
+	color: #283891;
+	font-size: 48px;
+}
+
+#containerSobre > header:nth-child(3) > h1 {
+	position: absolute;
+	margin-left: 500px;
+	color: #283891;
+	font-size: 48px;
+}
+
+#containerSobre > #explicacaoProfessores {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 70px;
+    margin-left: 30px;
+    padding: 30px;
+    width: 360px;;
+    height: 325px;
+	border-radius: 40px;
+	background-color: #eaab3b;
+}
+
+#containerSobre > #explicacaoClientes {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 70px;
+    margin-left: 500px;
+    padding: 30px;
+    width: 360px;;
+    height: 325px;
+	border-radius: 40px;
+	background-color: #eaab3b;
+}
+
+#containerSobre > #explicacaoProfessores > p, #containerSobre > #explicacaoClientes > p {
+	margin-top: 10px;
+	font-family: 'Open';
+	font-size: 20px;
+	color: #283891;
+}
+
+#botaoVoltar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 715px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-right: none;
+}
+
+#botaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 715px;
+	margin-left: 1181px;
+	width: 165px;
+	height: 53px;
+	border-top-left-radius: 30px;
+	border-left: none;
+}
+
+#botaoVoltar > input {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-right: none;
+	border-top-left-radius: 30px;
+	background-color: #f3efe2;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 25px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#botaoProximo > input {
+	width: 100%;
+	height: 100%;
+	border: 4px solid #f3efe2;
+	border-left: none;
+	border-top-right-radius: 30px;
+	background-color: #f3efe2;
+	white-space: normal;
+	font-family: 'Luckiest';
+	text-align: center;
+	font-size: 18px;
+	color: rgba(40, 56, 145, 1);
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoVoltar {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+    margin-left: 169px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#iconeBotaoProximo {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1009px;
+    margin-top: 670px;
+	width: 180px;
+	height: 90px;
+	border: 4px solid #f3efe2;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	background-color: #f3efe2;
+	transition: all 0.2s linear;
+}
+
+#etapas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 690px;
+	margin-left: 476.5px;
+	width: 400px;
+	height: 73px;
+	border: 5px solid #f3efe2;
+	border-bottom: 0px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+}
+
+#etapa1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33px;
+	height: 33px;
+    margin-left: 65px;
+    margin-top: -20px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #994822;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 183px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #994822;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#etapa3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 295px;
+	margin-top: -20px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #283891;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: 'Luckiest';
+	text-align: center;
+	color: #f3efe2;
+}
+
+#botaoSair {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin-left: 1216px;
+	width: 130px;
+	height: 33px;
+}
+
+#botaoSair > input {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	border: 0;
+	background-color: #f3efe2;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Luckiest';
+	color: #283891;
+	transition: all 0.1s linear;
+}
